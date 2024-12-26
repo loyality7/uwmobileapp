@@ -57,6 +57,7 @@ jobs:
           -configuration Debug \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
+          -derivedDataPath build \
           CODE_SIGNING_REQUIRED=NO \
           CODE_SIGNING_ALLOWED=NO \
           CODE_SIGN_IDENTITY="-" \
@@ -68,5 +69,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: ios-build
-        path: ios/build/
+        path: ios/build/Build/Products/Debug-iphonesimulator/BoxMobileApp.app
         retention-days: 5 
