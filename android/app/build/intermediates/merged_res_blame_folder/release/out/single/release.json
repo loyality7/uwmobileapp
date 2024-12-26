@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_instagramicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_instagramicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_design.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_design.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_product_filter_icon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_product_filter_icon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_search.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_search.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_node_modules_reactnativepaper_lib_module_assets_backchevron.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/node_modules_reactnativepaper_lib_module_assets_backchevron.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_literature.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_literature.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_buy_now.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_buy_now.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_regiterformheader.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_regiterformheader.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_cards.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_cards.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_notifications.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_notifications.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_icon_1.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_icon_1.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_brainbox.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_brainbox.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_icons8trophy15001.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_icons8trophy15001.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_stock.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_stock.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_winnings.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_winnings.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_profile.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_profile.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_aaa.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_aaa.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_loginbg.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_loginbg.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_splash.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_splash.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_temp_logo_new.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_temp_logo_new.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_legal.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_legal.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_uw_assured_2.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_uw_assured_2.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_prizepoint.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_prizepoint.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_upi_payment.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_upi_payment.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_netbanking.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_netbanking.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_emptywishlist.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_emptywishlist.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_reviews.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_reviews.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_barcode.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_barcode.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_bxs_star.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_bxs_star.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_25off.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_25off.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_earningsbg.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_earningsbg.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_cod.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_cod.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_category_categoryimg2.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_category_categoryimg2.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_icons8trainticket15001.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_icons8trainticket15001.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_seller.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_seller.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_settleicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_settleicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_visualarts.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_visualarts.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_mailicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_mailicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_bankicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_bankicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.boxmobileapp-main-37:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_lockicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_lockicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_qrcode_yt.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_qrcode_yt.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_xbo.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_xbo.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_logo_new.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_logo_new.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_magiccoin.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_magiccoin.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_whatsappicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_whatsappicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_faqs.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_faqs.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_emptycart.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_emptycart.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_twittericon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_twittericon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_typecode.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_typecode.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_agrisure.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_agrisure.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_partners.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_partners.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_close.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_close.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_support.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_support.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_point.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_point.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_scanner.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_scanner.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_finearts.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_finearts.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_category_categoryimg1.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_category_categoryimg1.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_wallet.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_wallet.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_redbg.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_redbg.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_influencers.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_influencers.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_app_page_images_ecomm.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_app_page_images_ecomm.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_qrcode_fb.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_qrcode_fb.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_headset.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_headset.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_logo.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_logo.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_urbanwallahlogo.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_urbanwallahlogo.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_paymentdetails.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_paymentdetails.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_cart_blue.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_cart_blue.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_ticket.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_ticket.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_coh.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_coh.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.boxmobileapp-main-37:/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_innovation.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_innovation.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_magiccoin.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_magiccoin.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_orders.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_orders.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_50off.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_50off.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_onlineicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_onlineicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_payment_emi.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_payment_emi.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/mipmap_ic_launcher.png.flat",
+        "source": "com.boxmobileapp-main-37:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_pools_poolimg1.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_pools_poolimg1.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_secure.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_secure.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_bluebg.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_bluebg.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_address.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_address.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_profile_balance.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_profile_balance.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-36:/drawable-mdpi_src_assets_winner.png.flat",
+        "source": "com.boxmobileapp-res-30:/drawable-mdpi/src_assets_winner.png"
+    }
+]

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "208119880030",
+    "project_id": "boxapp-398817",
+    "storage_bucket": "boxapp-398817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208119880030:android:a5a53dd229e0810fd417cf",
+        "android_client_info": {
+          "package_name": "com.boxmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208119880030-pk7i54rk56rpcf5dpvdpsmjei7jouojk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxmobileapp",
+            "certificate_hash": "061d3868fc3dd109fb46a3278eadb5e98873c04a"
+          }
+        },
+        {
+          "client_id": "208119880030-knkjrcvo5mbrjn2m24uaegs3jkgk48ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9NshvORYsDFs4mpwLiEs_bcd1AMHxhfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208119880030-knkjrcvo5mbrjn2m24uaegs3jkgk48ov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

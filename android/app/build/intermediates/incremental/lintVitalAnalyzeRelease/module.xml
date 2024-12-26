@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="D:\UW\CI%20Kart\MobileApp\android\app"
+    name=":app"
+    type="APP"
+    maven="BoxMobileApp:app:"
+    gradle="7.4.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\sarat\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\sarat\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

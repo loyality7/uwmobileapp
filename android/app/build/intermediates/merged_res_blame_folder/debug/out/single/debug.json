@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.boxmobileapp-merged_res-38:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.boxmobileapp-main-40:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-38:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.boxmobileapp-main-40:/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.boxmobileapp-merged_res-38:/mipmap_ic_launcher.png.flat",
+        "source": "com.boxmobileapp-main-40:/mipmap/ic_launcher.png"
+    }
+]

@@ -1,0 +1,58 @@
+name: iOS Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    name: Build iOS App
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'yarn'
+
+    - name: Install Yarn
+      run: npm install -g yarn
+
+    - name: Install Dependencies
+      run: yarn install --frozen-lockfile
+
+    - name: Cache CocoaPods
+      uses: actions/cache@v3
+      with:
+        path: ios/Pods
+        key: ${{ runner.os }}-pods-${{ hashFiles('ios/Podfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pods-
+
+    - name: Install CocoaPods
+      run: cd ios && pod install --repo-update
+
+    - name: Build iOS App
+      run: |
+        cd ios
+        xcodebuild \
+          -workspace BoxMobileApp.xcworkspace \
+          -scheme BoxMobileApp \
+          -configuration Debug \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
+          clean build
+
+    - name: Upload Build Artifacts
+      if: success()
+      uses: actions/upload-artifact@v3
+      with:
+        name: ios-build
+        path: ios/build/
+        retention-days: 5 
