@@ -63,11 +63,17 @@ jobs:
           CODE_SIGN_IDENTITY="-" \
           ONLY_ACTIVE_ARCH=YES \
           clean build
+        
+        # Debug output to see where files are
+        echo "Listing build directory contents:"
+        ls -R build/
 
     - name: Upload Build Artifacts
       if: success()
       uses: actions/upload-artifact@v3
       with:
         name: ios-build
-        path: ios/build/Build/Products/Debug-iphonesimulator/BoxMobileApp.app
+        path: |
+          ios/build/
+          !ios/build/**/intermediates/**
         retention-days: 5 
