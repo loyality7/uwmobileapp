@@ -39,9 +39,23 @@ temp/
 Thumbs.db
 Desktop.ini
 
+# Gradle files
+android/.gradle/
+android/build/
+android/app/build/
 
+# Local configuration files
+android/local.properties
+android/*.iml
+android/.idea/
 
-
+# iOS build files
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/*.xcodeproj/xcuserdata
+ios/*.xcodeproj/project.xcworkspace/xcuserdata
 
 # Fastlane
 fastlane/report.xml
@@ -51,8 +65,6 @@ fastlane/screenshots
 # Miscellaneous
 .expo/
 .expo-shared/
-
-
 
 # Firebase cache
 firebase-debug.log
