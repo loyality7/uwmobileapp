@@ -36,7 +36,15 @@ jobs:
           ${{ runner.os }}-pods-
 
     - name: Install CocoaPods
-      run: cd ios && pod install --repo-update
+      run: |
+        cd ios
+        pod install --repo-update
+
+    - name: Fix DateTimePicker
+      run: |
+        cd node_modules/@react-native-community/datetimepicker/ios
+        sed -i '' 's/YGNodeConstRef/YGNodeRef/g' RNDateTimePickerShadowView.m
+        sed -i '' 's/const struct YGNode \*/struct YGNode \*/g' RNDateTimePickerShadowView.m
 
     - name: Build iOS App
       run: |
@@ -50,6 +58,8 @@ jobs:
           CODE_SIGNING_REQUIRED=NO \
           CODE_SIGNING_ALLOWED=NO \
           CODE_SIGN_IDENTITY="-" \
+          ONLY_ACTIVE_ARCH=YES \
+          RCT_NEW_ARCH_ENABLED=1 \
           clean build
 
     - name: Upload Build Artifacts
