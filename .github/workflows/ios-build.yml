@@ -47,6 +47,8 @@ jobs:
         sed -i '' 's/const struct YGNode \*/struct YGNode \*/g' RNDateTimePickerShadowView.m
 
     - name: Build iOS App
+      env:
+        NO_FLIPPER: 1
       run: |
         cd ios
         xcodebuild \
@@ -59,7 +61,6 @@ jobs:
           CODE_SIGNING_ALLOWED=NO \
           CODE_SIGN_IDENTITY="-" \
           ONLY_ACTIVE_ARCH=YES \
-          RCT_NEW_ARCH_ENABLED=1 \
           clean build
 
     - name: Upload Build Artifacts
