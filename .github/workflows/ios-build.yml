@@ -51,22 +51,23 @@ jobs:
         NO_FLIPPER: 1
       run: |
         cd ios
+        # Archive the app
         xcodebuild \
           -workspace BoxMobileApp.xcworkspace \
           -scheme BoxMobileApp \
-          -configuration Debug \
-          -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
-          -derivedDataPath build \
-          CODE_SIGNING_REQUIRED=NO \
-          CODE_SIGNING_ALLOWED=NO \
-          CODE_SIGN_IDENTITY="-" \
-          ONLY_ACTIVE_ARCH=YES \
-          clean build
+          -configuration Release \
+          -archivePath build/BoxMobileApp.xcarchive \
+          archive \
+          CODE_SIGN_IDENTITY="iPhone Distribution" \
+          CODE_SIGNING_REQUIRED=YES \
+          CODE_SIGNING_ALLOWED=YES
         
-        # Debug output to see where files are
-        echo "Listing build directory contents:"
-        ls -R build/
+        # Export IPA
+        xcodebuild \
+          -exportArchive \
+          -archivePath build/BoxMobileApp.xcarchive \
+          -exportPath build/BoxMobileApp.ipa \
+          -exportOptionsPlist exportOptions.plist
 
     - name: Upload Build Artifacts
       if: success()
@@ -77,3 +78,33 @@ jobs:
           ios/build/
           !ios/build/**/intermediates/**
         retention-days: 5 
+
+    - name: Install Apple Certificate
+      if: success()
+      env:
+        BUILD_CERTIFICATE_BASE64: ${{ secrets.MYAPP_UPLOAD_IOS_CERTIFICATE }}
+        P12_PASSWORD: ${{ secrets.MYAPP_UPLOAD_IOS_PASSWORD }}
+        BUILD_PROVISION_PROFILE_BASE64: ${{ secrets.MYAPP_UPLOAD_IOS_PROFILE }}
+        KEYCHAIN_PASSWORD: ${{ secrets.MYAPP_UPLOAD_IOS_KEYCHAIN }}
+      run: |
+        # Create variables
+        CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
+        PP_PATH=$RUNNER_TEMP/build_pp.mobileprovision
+        KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+
+        # Import certificate and provisioning profile from secrets
+        echo -n "$BUILD_CERTIFICATE_BASE64" | base64 --decode -o $CERTIFICATE_PATH
+        echo -n "$BUILD_PROVISION_PROFILE_BASE64" | base64 --decode -o $PP_PATH
+
+        # Create temporary keychain
+        security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+        security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
+        security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+
+        # Import certificate to keychain
+        security import $CERTIFICATE_PATH -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k $KEYCHAIN_PATH
+        security list-keychain -d user -s $KEYCHAIN_PATH
+
+        # Apply provisioning profile
+        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+        cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles 
